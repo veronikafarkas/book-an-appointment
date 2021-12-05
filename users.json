@@ -1,0 +1,78 @@
+{
+    "60046e1acff1a": {
+        "fullname": "Trap Pista",
+        "tajnum": 111222333,
+        "address": "Sajt utca 2.",
+        "email": "pista@sajt.hu",
+        "pw1": "$2y$10$sFu\/b8SCly6E2abqi1vTBuUJMeFDxY.V490tXjB8XfH6nZLgvOZxG",
+        "pw2": "$2y$10$hSSyO59Ey7LllkzQlKDdAeqJchyY7325ecqEm07JWUkaVwz8JdGCS",
+        "role": "user",
+        "id": "60046e1acff1a"
+    },
+    "60046e5e420fc": {
+        "fullname": "Fejet Lenke",
+        "tajnum": 666666666,
+        "address": "K\u00f6rte utca 3.",
+        "email": "lenke.fejet@hotmail.com",
+        "pw1": "$2y$10$IAFdZqqgY\/ATuozZBIqPcebTSHtaULbGPNVmx45wk7xWerpJMVupm",
+        "pw2": "$2y$10$mRS3ZZKvMZFaN\/EAXUIg3u4St2pFef6ZckUp6UCP3wdp.AYl6Af02",
+        "role": "user",
+        "id": "60046e5e420fc"
+    },
+    "60046eae27346": {
+        "fullname": "Te\u00e1sk Anna",
+        "tajnum": 918273645,
+        "address": "Tea u. 85",
+        "email": "anna@gmail.com",
+        "pw1": "$2y$10$cEo3PEAo5Ec4vPhOs6Gqwujt.SdEZlF21xNq\/zw0WorDw7VShGQT6",
+        "pw2": "$2y$10$mKx4f5dMF3OMwuQCl7KtI.xO1wcmnKppMLcYmfDW8AHvfcmMpt5sa",
+        "role": "user",
+        "id": "60046eae27346"
+    },
+    "60046eeba68c8": {
+        "fullname": "Szikla Szil\u00e1rd",
+        "tajnum": 142414231,
+        "address": "K\u0151fejt\u0151 utca 32.",
+        "email": "szili@citromail.hu",
+        "pw1": "$2y$10$cmsfHQCpuP2tD2f9FGgnGuwJsUfe\/pJwmCnJfQGduMRoTsx866L86",
+        "pw2": "$2y$10$oVS1fhjtaKUlcZhqZaJC\/udYB.6Lvw1VMaPRS8Ddq6JdZv7D6vZkS",
+        "role": "user",
+        "id": "60046eeba68c8"
+    },
+    "60046f9258c24": {
+        "fullname": "Elektrom \u00c1gnes",
+        "tajnum": 756487364,
+        "address": "Zaj u. 23.",
+        "email": "agika@gmail.com",
+        "pw1": "$2y$10$LBwqJbO.DQG3hmHFzHHz\/.x2zPF95iORjG\/lSAmfkiqU0J8zZSCmi",
+        "pw2": "$2y$10$w9zkWDqFeOgkAKagGcxFSuMhzIhIvnqtkuNdld0xP6jEudJ3zuQiW",
+        "role": "user",
+        "id": "60046f9258c24"
+    },
+    "60046fde14ddc": {
+        "fullname": "Koaxk \u00c1bel",
+        "tajnum": 777555999,
+        "address": "Hegy u. 88. 3\/4",
+        "email": "abel.koax@hotmail.com",
+        "pw1": "$2y$10$Vx1.x7UkfV\/TBBkZKGT00eBxBHntu91nFpFo3WYHoA5IcRex22A2y",
+        "pw2": "$2y$10$5WLuk86Yop5Q9jYO6JFmj.zqfhOqckuSn\/nFYE9ibIHUf0AQ8zNlG",
+        "role": "user",
+        "id": "60046fde14ddc"
+    },
+    "600470c9959ed": {
+        "email": "admin@nemkovid.hu",
+        "pw1": "$2y$10$TOMZahxMW1EKZD8UTj2bY.D7MkmF.OzdIEoFVC3Z2uy6ySpTk7tEu",
+        "role": "admin",
+        "id": "600470c9959ed"
+    },
+    "61acec5428837": {
+        "fullname": "Tom Smith",
+        "tajnum": 191928475,
+        "address": "Valami u. 56.",
+        "email": "tom@smith.com",
+        "pw1": "$2y$10$FYgBoTgW0p4fJyIi5Y8eleLU6TSANWtYjYmRzDs0i\/rMAmHsv5Hcu",
+        "pw2": "$2y$10$jGSYnY.oMNpkxBTyA4aWoeolsGaMu70mJMRfa\/0JUIix0rASI0f0m",
+        "role": "user",
+        "id": "61acec5428837"
+    }
+}
