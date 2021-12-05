@@ -1,52 +1,13 @@
-Farkas Veronika
-C394CU
-Webprogramozás - számonkérés
-Ezt a megoldást a fent írt hallgató küldte be és készítette a Webprogramozás kurzus számonkéréséhez.
-Kijelentem, hogy ez a megoldás a saját munkám. Nem másoltam vagy használtam harmadik féltől 
-származó megoldásokat. Nem továbbítottam megoldást hallgatótársaimnak, és nem is tettem közzé. 
-Az Eötvös Loránd Tudományegyetem Hallgatói Követelményrendszere 
-(ELTE szervezeti és működési szabályzata, II. Kötet, 74/C. §) kimondja, hogy mindaddig, 
-amíg egy hallgató egy másik hallgató munkáját - vagy legalábbis annak jelentős részét - 
-saját munkájaként mutatja be, az fegyelmi vétségnek számít. 
-A fegyelmi vétség legsúlyosabb következménye a hallgató elbocsátása az egyetemről.
+# book-an-appointment
 
-Minimálisan teljesítendő (6 pont)
+Ez egy példa program, ahol oltásra lehet időpontot foglalni. Karanténban, még az oltások elkezdése előtt kellett beadandónak elkészíteni, így ez nem tükrözi a valós oltási rendszert. 
 
-[x] Listaoldal: megjelenik (0 pont)
-[x] Listaoldal: statikus szöveg és tájékoztató (0 pont)
-[x] Listaoldal: összes időpont listázása (1 pont)
-[x] Admin: új időpont felvétele, hibakezelés (bejelentkezés és admin funkciók nélkül) (2 pont)
-[x] Admin: új időpont felvétele, sikeres mentés (bejelentkezés és admin funkciók nélkül) (2 pont)
+A főoldalra érkezve (index.php) megtekinthető egy rövid leírás és a jelentkezés menete. Az oldal alján a hónapban elérhető oltási napok és a rendelkezésre álló helyeket tekinthetjük meg. Ha egy napra betelt a létszám, pirossá változik az a nap, illetve a Jelentkezés link is letiltásra kerül.
+A Jelentkezés linkre kattintva egy bejelentkező oldal lesz előttünk, ha rendelkezünk regisztrációval, beléphetünk, ellenkező esetben a Regisztráció-ra kattintva beregisztrálhatjuk magunkat, ahol az összes szövegmező kitöltése kötelező.  Sikeres regisztráció után újra a bejelentkező oldalra kerülünk, ahonnan mostmár bejelentkezhetünk az oldalra. 
+Ha a jobb felső sarokban látható bejelentkezés/regisztráció gombra kattintva jelentkezünk be, akkor a főoldalra jutunk vissza, ha pedig valamelyik jelentkezés gombra kattintottunk, akkor kiugrik az időpontfoglalás oldala, az időpont és saját adatainkkal. Egy jelölőnégyzet bepipálásával és a Jelentkezés megerősítése gombra kattintva egy "Sikeres időpontfoglalás!" oldalra jutunk, ahonnan visszamehetünk a kezdőlapra. 
+A kezdőlapon immár a foglalt időpontunk jelenik meg, és az időpontok táblázatánál letiltásra kerültek a jelentkezés gombok, hiszen már van időpontunk. Viszont továbbra is látható, hogy hány hely foglalt, hátha meggondoljuk magunkat. A foglalt időpontunknál találunk egy "Jelentkezés lemondása" gombot is, melyre kattintva lemondhatjuk a foglalásunkat egy kattintással, majd jelentkezhetünk egy új időpontra.
+Lehetőség van még adminként is belépni az admin@nemkovid.hu e-mail címmel és az admin jelszóval. Adminként új időpontot hirdethetünk meg egy dátum, időpont és a helyek számának megadásával, itt is kötelező minden mező kitöltése. Az admin látja azt is, hogy a különböző időpontokra kik jelentkeztek, de ő csak a teljes nevüket, TAJ számukat és az e-mail címüket látja.
 
-Az alap feladatok (14 pont)
+A naptár még átalakításra szorulna, ugyanis a hónapok között nem lehet váltani, és szebb megjelenést is lehetne neki adni.
 
-[x] Listaoldal: Adott hónapba eső időpontok listázása (0,5 pont)
-[ ] Listaoldal: Előző és következő hónap listázása (1 pont)
-[x] Listaoldal: Szabad időpont zöld, a betelt piros (0,5 pont)
-[x] Listaoldal: Jelentkezés gomb megjelenik az időpontok mellett vendégnek (0,5 pont)
-[x] Listaoldal: Jelentkezés gomb megjelenik az időpontok mellett bejelentkezés után, ha nincs foglalásunk (0,5 pont)
-[x] Listaoldal: Jelentkezés gomb nem jelenik meg az időpontok mellett bejelentkezés után, ha már van foglalásunk (0,5 pont)
-[x] Listaoldal: Jelentkezés gomb URL-je a megfelelő időpont részletező oldalára mutat (0,5 pont)
-[x] Listaoldal: ha van már foglalásunk és be vagyunk jelentkezve, akkor a foglalás adatai megjelennek (1 pont)
-[x] Listaoldal: ha van már foglalásunk és be vagyunk jelentkezve, akkor a foglalás lemondható (0,5 pont)
-[x] Listaoldal: minden bejelentkezett felhasználó csak a saját foglalását mondhatja le (jogosultságvizsgálat) (0,5 pont)
-[x] Regisztrációs űrlap: megfelelő elemeket tartalmaz (0,5 pont)
-[x] Regisztrációs űrlap: hibás esetek kezelése, hibaüzenet, állapottartás (1,5 pont)
-[x] Regisztrációs űrlap: sikeres regisztráció (0,5 pont)
-[x] Bejelentkezés: hibás esetek kezelése (1 pont)
-[x] Bejelentkezés: sikeres belépés (0,5 pont)
-[x] Jelentkezés részletei: az időpont és felhasználó adatai rendben megjelennek (0,5 pont)
-[x] Jelentkezés részletei: jelölőmező helyes kezelése (0,5 pont)
-[x] Jelentkezés részletei: sikeres jelentkezés (1 pont)
-[x] Admin: be lehet jelentkezni admin felhasználó adataival (0,5 pont)
-[x] Admin: időpont részletei oldalon megjelennek az erre jelentkezett felhasználók adatai (0,5 pont)
-[x] Admin: új időpont meghirdetése csak admin felhasználóval érhető el (0,5 pont)
-[x] Nincs nagyobb programhiba, nem csalhatók elő furcsa jelenségek (0,5 pont)
-[x] Igényes kialakítás (1 pont)
-
-Plusz feladatok (plusz 5 pont)
-
-[ ] Listaoldal: időpontok naptár formátumban (2,5 pont)
-[ ] Listaoldal: AJAX naptár lapozás (1 pont)
-[x] Bejelentkezés: megőrzi a kiválasztott időpontot (1 pont)
-[x] Űrlapok: a regisztrációs és az új időpont űrlapon a hibaüzeneteket az űrlapmezők mellett jelennek meg (0,5 pont)
+Készítve: 2021.01.17.
